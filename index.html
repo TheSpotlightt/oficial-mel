@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="/Imagens/favicon.ico" type="image/x-icon">
+
+        <link rel="stylesheet" href="public/styles/geral-styles.css">
+        <link rel="stylesheet" href="public/styles/header-home.css">
+        <link rel="stylesheet" href="public/styles/index.css">
+        <link rel="stylesheet" href="public/styles/menu.css">
+        <link rel="shortcut icon" href="/public/assets/android-chrome-192x192.png" type="image/x-icon">
+
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+        <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+        <script src="public/scripts/main.js" defer></script>
+        <title>Mel amor e Ju</title>
+    </head>
+
+    <body>
+        <header>
+            <div class="header-div">
+                <div>
+                    <a href="index.html">
+                        <img src="public/assets/logonovo.png" alt="logo mel amor e ju" class="logo">
+                    </a>
+                </div>
+                
+                <nav role="navigation">
+                    <div id="menuToggle">
+                        <input type="checkbox" >
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        
+                        <ul id="menu">
+                            <a href="index.html" target="_self" class="links">
+                                <li> Home </li>
+                            </a>
+            
+                            <a href="src/views/products.html" target="_self" rel="next" class="links">
+                                <li> Produtos </li>
+                            </a>
+            
+                            <a href="src/views/about.html" target="_self" rel="next" class="links">
+                                <li> Sobre nós </li>
+                            </a>
+            
+                            <a href="src/views/contantct.html" target="_self" rel="next" class="links">
+                                <li> Contato </li>
+                            </a>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <section>
+            <div class="image-section-container">
+                <img src="public/assets/slide-image3.jpg" alt="Pão de mel cortado no meio" class="image-section">
+                
+                <div class="section-text">
+                    <h1> Mel Amor e Ju </h1>
+                    <p> O trio perfeito do sabor. </p>
+                </div>
+            </div>
+            <div id="image-slider" class="splide">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide"> 
+                            <img src="public/assets/slide-image1.jpg" class="splide__slide__image"> 
+                        </li>
+                        <li class="splide__slide">
+                            <img src="public/assets/slide-image2.jpg" class="splide__slide__image">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="public/assets/slide-image4.jpg" class="splide__slide__image">
+                        </li>
+                    </ul>
+                </div>
+                <div class="splide__progress">
+                    <div class="splide__progress__bar">
+                    </div>
+                </div>
+            </div>
+
+            <div class="social-medias-container">
+                <a href="https://www.facebook.com/melamoreju/photos/?ref=page_internal" target="_blank" rel="noopener" id="faceimg">
+                    <img src="public/assets/facebook.png"  alt=" link facebook" class="social-medias">
+                </a>
+
+                <a href="https://www.instagram.com/melamoreju/" target="_blank" rel="noopener" id="instaimg">
+                    <img src="public/assets/instagram.png" alt=" link instagram" class="social-medias"  />
+                </a>
+            </div>
+        </section>
+        <footer>&copy; GDesenvolvimento</footer>
+    </body>
+</html>

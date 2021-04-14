@@ -1,0 +1,77 @@
+.image-section-container {
+    margin-top: 7rem;
+
+    display: flex;
+
+    align-items: center;
+}
+
+.image-section {
+    width: 25%;
+    height: 55rem;
+
+    border-radius: 1rem;
+    box-shadow: 1px 1px 2px black;
+}
+
+.section-text {
+    text-align: center;
+    margin-left: 30rem;
+}
+
+h1 {
+    font-size: 5rem;
+    font-family: 'Dancing Script', cursive;
+    color: #01376C;
+
+}
+
+p {
+    font-size: 2.5rem;
+    text-align: right;
+    font-family: 'Dancing Script', cursive;
+    color: #01376C;
+
+}
+
+#image-slider {
+    width: 30%;
+    position: absolute;
+    left: 70rem;
+}
+
+@media only screen and (max-width: 1400px) {
+    #image-slider {
+        left: 60rem;
+        top: 65rem;
+    }
+}
+
+.splide__slide__image {
+	width: 20%;
+    height: auto;
+}
+
+.social-medias {
+    width: 2%;
+    height: 2%;
+}
+
+.social-medias-container {
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+
+a#instaimg{
+    margin-left: 3rem;
+}
+
+a#faceimg{
+    margin-left: 8rem;
+}
+
+footer{
+    margin-top: 8rem;
+    text-align: right;
+    font-size: 1.7rem;
+}

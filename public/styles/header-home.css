@@ -1,0 +1,48 @@
+.logo {
+    width: calc(5rem + 7vw);
+}
+
+.header-div {
+    display: flex;
+
+}
+
+span {
+    visibility: hidden;
+}
+
+input {
+    visibility: hidden;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20rem;
+}
+
+@media only screen and (max-width: 1400px) {
+    ul {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 15rem;
+    }
+}
+
+li {
+    list-style-type: none;
+}
+
+
+
+.links {
+    margin-top: 5rem;
+    color: #01376c;
+    font-family: 'Poppins', sans-serif;
+
+    font-size: 1.8rem;
+    text-align: center;
+
+    text-decoration: none;
+    text-shadow: 1px 1px 1px;
+}
