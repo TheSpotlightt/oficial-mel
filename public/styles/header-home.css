@@ -18,16 +18,39 @@ input {
 ul {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 20rem;
+    gap: 30rem;
 }
 
-@media only screen and (max-width: 1400px) {
+nav {
+    margin-left: 20rem;
+}
+
+
+@media only screen and (max-width: 1500px) {
     ul {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         gap: 15rem;
     }
 }
+
+@media only screen and (max-width: 1300px) {
+    ul {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10rem;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    ul {
+        grid: none;
+    }
+
+    nav {
+        margin-left: 0;
+    }
+} 
 
 li {
     list-style-type: none;

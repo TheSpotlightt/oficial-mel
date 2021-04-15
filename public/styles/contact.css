@@ -1,0 +1,89 @@
+section {
+    margin:  auto;
+    width: 80rem;
+    height: 70rem;
+    padding: 5rem;
+    border: 1px solid black;
+
+    margin-top: 2rem;
+
+    border-radius: .8rem;
+
+    background-color: #f3f4f3;
+}
+
+a {
+    text-decoration: none;
+}
+
+section h1 {
+    font-family: 'Dancing Script', cursive;
+
+    text-align: center;
+    font-size: 3rem;
+}
+
+.header-section p {
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+.social-medias-container div {
+    padding: 5rem;
+}
+
+.social-medias-container div p {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 3rem;
+    font-size: 1.5rem;
+
+    text-decoration: #000 wavy underline;
+}
+
+img {
+    width: calc(2rem + 1vw);
+    border-radius: 10px;
+}
+
+.contact {
+    display: flex;
+    align-items:center;
+}
+
+#instaimg:hover {
+    background-color: #D43999;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+#faceimg:hover {
+    background-color: #2D88FF;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+#whatsimg:hover {
+    background-color: #1BD741;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+footer {
+    font-size: 1.5rem;
+    text-align: right;
+}
+
+@media only screen and (max-width: 900px) {
+    section {
+        width: 70rem;
+        margin-left: 2rem;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    section {
+        width: 40rem;
+        margin-left: 1rem;
+    }
+}

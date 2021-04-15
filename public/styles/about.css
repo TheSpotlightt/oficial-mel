@@ -1,0 +1,30 @@
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    color: #01376C;
+    font-size: 5rem ;
+    text-align: center;
+}
+h2 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+.text {
+    border-radius: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    padding: 2rem;
+    background-color: white;
+}
+.a-gente {
+    display: block;
+    margin: auto;
+    width: 75%;
+}
+footer {
+    margin: auto;
+    font-size: 1.5rem;
+    text-align: right;
+}

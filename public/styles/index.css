@@ -7,12 +7,13 @@
 }
 
 .image-section {
-    width: 25%;
-    height: 55rem;
+    width: 25vw;
+    height: 55vh;
 
     border-radius: 1rem;
     box-shadow: 1px 1px 2px black;
 }
+
 
 .section-text {
     text-align: center;
@@ -40,21 +41,11 @@ p {
     left: 70rem;
 }
 
-@media only screen and (max-width: 1400px) {
-    #image-slider {
-        left: 60rem;
-        top: 65rem;
-    }
-}
-
-.splide__slide__image {
-	width: 20%;
-    height: auto;
-}
 
 .social-medias {
     width: 2%;
     height: 2%;
+
 }
 
 .social-medias-container {
@@ -71,7 +62,225 @@ a#faceimg{
 }
 
 footer{
-    margin-top: 8rem;
+    margin-top: 20rem;
+    margin-right: 2rem;
     text-align: right;
     font-size: 1.7rem;
+}
+
+@media only screen and (max-width: 1400px) {
+    #image-slider {
+        left: 60rem;
+        top: 65rem;
+        left: 55rem;
+        top: 55rem;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .image-section {
+        visibility: hidden;
+    }
+
+    .section-text {
+        margin-left: 5rem; 
+        margin-bottom: 50rem;
+    }
+
+    #image-slider {
+        width: 70%;
+        left: 10rem;
+        top: 38rem;
+    }
+    
+    footer {
+        text-align: right;
+        font-size: 1.7rem;
+    }
+
+    .social-medias {
+        width: 8%;
+        height: 8%;
+    }
+
+    .social-medias-container {
+        margin-left: 45rem;
+        margin-top: -20rem;
+    }
+}
+
+
+@media only screen and (max-width: 701px) {
+    .image-section {
+        visibility: hidden;
+    }
+
+    .section-text {
+        margin-left: -4rem; 
+        margin-bottom: 38rem;
+        margin-top: -3rem;
+    }
+
+    #image-slider {
+        width: 90%;
+        left: 2rem;
+        top: 38rem;
+    }
+    
+    footer {
+        margin-top: 7rem;
+        text-align: right;
+        font-size: 1.7rem;
+    }
+
+    .social-medias {
+        width: 12%;
+        height: 12%;
+    }
+
+    .social-medias-container {
+        margin-left: 10rem;
+        margin-top: -13rem;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .image-section {
+        visibility: hidden;
+    }
+
+    .section-text {
+        margin-left: -4rem; 
+        margin-bottom: 38rem;
+        margin-top: -3rem;
+    }
+
+    #image-slider {
+        width: 90%;
+        left: 2rem;
+        top: 38rem;
+    }
+    
+    footer {
+        margin-top: 7rem;
+        text-align: right;
+        font-size: 1.7rem;
+    }
+
+    .social-medias {
+        width: 12%;
+        height: 12%;
+    }
+
+    .social-medias-container {
+        margin-left: 20rem;
+        margin-top: -8rem;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    .image-section {
+        visibility: hidden;
+    }
+
+    .section-text {
+        margin-left: -4rem; 
+        margin-bottom: 38rem;
+        margin-top: -3rem;
+    }
+
+    #image-slider {
+        width: 80%;
+        left: 6rem;
+        top: 38rem;
+    }
+
+    footer {
+        margin-top: 7rem;
+        margin-left: 8rem;
+        text-align: right;
+        font-size: 1.7rem;
+    }
+
+    .social-medias {
+        width: 12%;
+        height: 12%;
+    }
+
+    .social-medias-container {
+        margin-left: 20rem;
+        margin-top: -13rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .image-section {
+        visibility: hidden;
+    }
+
+    .section-text {
+        margin-left: -4rem; 
+        margin-bottom: 38rem;
+        margin-top: -3rem;
+    }
+
+    #image-slider {
+        width: 80%;
+        left: 6rem;
+        top: 38rem;
+    }
+
+    footer {
+        margin-top: 7rem;
+        margin-left: 8rem;
+        margin-right: -3rem;
+        text-align: right;
+        font-size: 1.7rem;
+    }
+
+    .social-medias {
+        width: 12%;
+        height: 12%;
+    }
+
+    .social-medias-container {
+        margin-left: 20rem;
+        margin-top: -13rem;
+    }
+}
+@media only screen and (max-width: 350px) {
+    .image-section {
+        visibility: hidden;
+    }
+
+    .section-text {
+        margin-left: -4rem; 
+        margin-bottom: 38rem;
+        margin-top: -3rem;
+    }
+
+    #image-slider {
+        width: 80%;
+        left: 6rem;
+        top: 38rem;
+    }
+
+    footer {
+        margin-top: 7rem;
+        margin-left: 8rem;
+        margin-right: -8rem;
+        text-align: right;
+        font-size: 1.7rem;
+    }
+
+    .social-medias {
+        width: 12%;
+        height: 12%;
+    }
+
+    .social-medias-container {
+        margin-left: 20rem;
+        margin-top: -13rem;
+    }
 }
